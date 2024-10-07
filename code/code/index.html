@@ -5,35 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>東京造形大学CS祭 2024 星のみちびき</title>
+    <meta name="apple-mobile-web-app-title" content="東京造形大学CS祭 2024 星のみちびき">
 
     <meta name="robots" content="all">
-    <meta name="description"
-        content="東京造形大学CS祭 2024 公式サイト 星は創る。星は魅せる。星はつながる。星はもっと輝く。星たちはきみを未だ見ぬ世界へとつれていってくれる。一緒に行こう 星のみちびきのままに!">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-
+    <meta name="description" content="東京造形大学CS祭2024の公式サイトです。">
+    <link rel="apple-touch-icon" sizes="192x192"
+        href="https://zokei-csf.com/2024csfes/images/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/meta/favicon.svg">
     <meta property="og:site_name" content="東京造形大学CS祭 2024 星のみちびき" />
-    <meta property="og:url" content="https://http://zokei-csf.com/2024csfes/" /> <!--ページごとに変える-->
+    <meta property="og:url" content="https://zokei-csf.com/2024csfes/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="東京造形大学CS祭 2024 星のみちびき" />
-    <meta property="og:description"
-        content="東京造形大学CS祭 2024 公式サイト 星は創る。星は魅せる。星はつながる。星はもっと輝く。星たちはきみを未だ見ぬ世界へとつれていってくれる。一緒に行こう 星のみちびきのままに!" />
-    <meta property="og:image" content="https://http://zokei-csf.com/2024csfes//2023/ogp.png" />
+    <meta property="og:description" content="東京造形大学CS祭（芸術祭）2024の公式サイトです。" />
+    <meta property="og:image" content="https://zokei-csf.com/2024csfes/images/meta/ogp.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-
-    <meta property="fb:page_id" content="" />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@cs_fes_" />
     <meta name="twitter:title" content="東京造形大学CS祭 2024 星のみちびき" />
-    <meta name="twitter:description"
-        content="東京造形大学CS祭 2024 公式サイト 星は創る。星は魅せる。星はつながる。星はもっと輝く。星たちはきみを未だ見ぬ世界へとつれていってくれる。一緒に行こう 星のみちびきのままに!" />
-
-    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:description" content="東京造形大学CS祭（芸術祭）2024の公式サイトです。" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="top.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "東京造形大学CS祭 2024 星のみちびき",
+            "description": "東京造形大学の芸術祭「CS祭」の2024年度公式サイトです。",
+            "startDate": "2024-10-18",
+            "endDate": "2024-10-20",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "Place",
+              "name": "東京造形大学",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "宇津貫町1556",
+                "addressLocality": "八王子市",
+                "addressRegion": "東京都",
+                "postalCode": "192-0992",
+                "addressCountry": "JP"
+              }
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "東京造形大学",
+              "url": "https://www.zokei.ac.jp"
+            },
+            "image": "https://zokei-csf.com/2024csfes/images/meta/ogp.png",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://zokei-csf.com/2024csfes/",
+              "price": "0",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2024-10-18"
+            },
+            "performer": {
+              "@type": "PerformingGroup",
+              "name": "CS祭実行委員会"
+            },
+            "url": "https://zokei-csf.com/2024csfes/",
+            "sameAs": [
+              "https://www.instagram.com/cs_fes_/",
+              "https://x.com/cs_fes_"
+            ]
+          }
+    </script>
     <script>
         (function (d) {
             var config = {
@@ -44,22 +83,22 @@
                 h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VX38LWNE44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VX38LWNE44');
+    </script>
+    <meta name="google-site-verification" content="WS3Nd8lSfIYXXp2DXNKKGNlxrFlxvvNhCwvQHyjEDV8" />
 </head>
 
 <body>
-    <div id="splash"></div>
     <div id="wrapper">
         <main>
-            <!--
-            <div>
-                <img class="pc_border" src="images/top/forpc_border.svg" alt="">
-                <img class="sp_border" src="images/top/forsp_border.svg" alt="">
-            </div>-->
-            <picture class="mainvisual_bg">
-                <source type="image/webp" srcset="images/top/bg.webp">
-                <source type="image/avif" srcset="images/top/bg.avif">
-                <img src="images/top/bg.jpg" alt="" width="1685" height="2384">
-            </picture>
             <div id="mainvisual" class="mainvisual_contaier">
                 <h1 class="mainvisual_logo">
                     <img src="images/top/logo_hero.svg" alt="星のみちびき">
@@ -70,39 +109,148 @@
                     <source type="image/avif" srcset="images/top/top_planet.avif">
                     <img src="images/top/top_planet.png" alt="" width="865" height="792">
                 </picture>
+
                 <div class="mainvisual_stars">
                     <img src="images/top/top_stars.svg" alt="">
                 </div>
+
                 <div class="information">
                     <img src="images/top/info.svg" alt="10月18日から10月20日">
                 </div>
             </div>
-            <section class="concept_text">
+            <section class="concept">
+                <h2 class="concept_tittle">星の導き</h2>
                 <p>
                     星は創る。星は魅せる。星はつながる。星はもっと輝く。<br>星たちはきみを未だ見ぬ世界へとつれていってくれる。<br>一緒に行こう 星のみちびきのままに!
                 </p>
             </section>
-            <section class="access">
-                <h2>
-                    <span>ACCESS</span>
-                    <picture class="mainvisual_planet">
-                        <source type="image/webp" srcset="images/top/top_planet.webp">
-                        <source type="image/avif" srcset="images/top/top_planet.avif">
-                        <img src="images/top/top_planet.png" alt="" width="865" height="792">
+            <section class="section_container">
+                <h2 class="heading">
+                    <span class="heading_text">ABOUT</span>
+                    <picture class="heading_img">
+                        <source type="image/webp" srcset="images/common/meteor.webp">
+                        <source type="image/avif" srcset="images/common/meteor.avif">
+                        <img src="images/common/meteor.png" alt="" width="161" height="36">
                     </picture>
                 </h2>
-                <address>東京造形大学</address>
-                <address>〒192-0992 東京都八王子市宇津貫町1556</address>
-                <p>Tel:<a href="042-637-8111">042-637-8111</a></p>
-                <p>交通：JR横浜線相原駅よりスクールバス5分・徒歩15分</p>
-                <a href="https://www.zokei.ac.jp/museum/about/">https://www.zokei.ac.jp/museum/about/</a>
+                <h3>CS祭とは？</h3>
+                <p>
+                    　東京造形大学の芸術祭である「CS祭」は、学生のみで構成されているCS祭実行委員会が企画・運営を行っています。
+                    <br>2024年度は、10月18日/19日/20日の3日間に渡り、開催されます。
+                    <br>学生たちの有り余るほどの情熱やアイディア満載の作品展示、マーケット、パフォーマンス、模擬店、イベントなどをご用意して皆さまをお待ちしています。 ぜひご来場ください！
+                </p>
             </section>
-            <section>
-                <p>Coming Soon</p>
+            <section class="section_container">
+                <h2 class="heading">
+                    <span class="heading_text">CONTENTS</span>
+                    <picture class="heading_img">
+                        <source type="image/webp" srcset="images/common/meteor.webp">
+                        <source type="image/avif" srcset="images/common/meteor.avif">
+                        <img src="images/common/meteor.png" alt="" width="161" height="36">
+                    </picture>
+                </h2>
+                <p class="comingsoon_text">Coming Soon ...</p>
             </section>
-        </main>
-        <footer></footer>
+            <section class="section_container">
+                <h2 class="heading">
+                    <span class="heading_text">CHARACTERS</span>
+                    <picture class="heading_img">
+                        <source type="image/webp" srcset="images/common/meteor.webp">
+                        <source type="image/avif" srcset="images/common/meteor.avif">
+                        <img src="images/common/meteor.png" alt="" width="161" height="36">
+                    </picture>
+                </h2>
+
+                <div class="cassope_container">
+                    <picture class="cassope_img">
+                        <source type="image/webp" srcset="images/top/cassope.webp">
+                        <source type="image/avif" srcset="images/top/cassope.avif">
+                        <img src="images/top/cassope.png" alt="カシオペ" width="500" height="500">
+                    </picture>
+                    <div class="charcter_text">
+                        <h3>カシオペ</h3>
+                        <p>カシオペア座からやって来た女の子<br>
+                            元気な性格で宇宙を飛びまわるのが大好き！<br>
+                            ディッパーと星のガイドをしているよ</p>
+                    </div>
+                </div>
+                <div class="dipper_container">
+                    <picture class="dipper_img">
+                        <source type="image/webp" srcset="images/top/dipper.webp">
+                        <source type="image/avif" srcset="images/top/dipper.avif">
+                        <img src="images/top/dipper.png" alt="ディッパー" width="500" height="500">
+                    </picture>
+                    <div class="charcter_text">
+                        <h3>ディッパー</h3>
+                        <p>北斗七星からやって来た女の子<br>
+                            おとなしい性格で星を眺めるのが好き<br>
+                            いつもきらめく星々を見守ってるよ</p>
+                    </div>
+                </div>
     </div>
+    </section>
+    <section class="section_container">
+        <h2 class="heading">
+            <span class="heading_text">ACCESS</span>
+            <picture class="heading_img">
+                <source type="image/webp" srcset="images/common/meteor.webp">
+                <source type="image/avif" srcset="images/common/meteor.avif">
+                <img src="images/common/meteor.png" alt="" width="161" height="36">
+            </picture>
+        </h2>
+        <address>東京造形大学</address>
+        <address>〒192-0992 東京都八王子市宇津貫町1556</address>
+        <p>Tel:<a href="042-637-8111">042-637-8111</a></p>
+        <p>交通：JR横浜線相原駅よりスクールバス5分・徒歩15分</p>
+        <a href="https://www.zokei.ac.jp/">https://www.zokei.ac.jp/</a>
+    </section>
+    <div class="meteor_container"></div>
+    <picture class="mainvisual_bg">
+        <source type="image/webp" srcset="images/common/bg.webp">
+        <source type="image/avif" srcset="images/common/bg.avif">
+        <img src="images/common/bg.jpg" alt="" width="1685" height="2384">
+    </picture>
+    </main>
+    <footer>
+        <div class="footer_info">
+            <h3>東京造形大学【CS祭】</h3>
+            <ul>
+                <div class="flex_container">
+                    <li class="icon">
+                        <a href="https://www.instagram.com/cs_fes_/">
+                            <img src="images/common/sns_ins.svg" alt="CS祭公式Instagram">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://x.com/cs_fes_">
+                            <img src="images/common/sns_x.svg" alt="CS祭公式X">
+                        </a>
+                    </li>
+                </div>
+            </ul>
+            <h3>東京造形大学【公式】</h3>
+            <ul class="flex_container">
+                <li class="icon">
+                    <a href="https://www.instagram.com/tokyo_zokei_univ_official/">
+                        <img src="images/common/sns_ins.svg" alt="東京造形大学公式Instagram">
+                    </a>
+                </li>
+                <li class="icon">
+                    <a href="https://x.com/TokyoZokeiUniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <img src="images/common/sns_x.svg" alt="東京造形大学公式X">
+                    </a>
+                </li>
+                <li class="icon">
+                    <a href="https://www.zokei.ac.jp/">
+                        <img src="images/common/home.svg" alt="東京造形大学公式サイト">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="copyright">Copyright © 2024 Creative Spiral Festival | Tokyo Zokei University</p>
+    </footer>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
